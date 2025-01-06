@@ -46,6 +46,8 @@ document.getElementById('getWeather').addEventListener('click', async () => {
                 weatherImage = 'drizzle.png'; 
                 break;
             case 'mist':
+                weatherImage = 'mist.png';
+                break;
             case 'fog':
                 weatherImage = 'foggy.png';
                 break;
